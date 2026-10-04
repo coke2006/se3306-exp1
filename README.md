@@ -1,6 +1,6 @@
 # SE3306 实验一：CSR / SSR / SSG 渲染对比
 
-> - **仓库**：https://gitee.com/<你的账号>/se3306-exp1
+> - **仓库**：https://gitee.com/coker-coal/se3306-exp1
 > - **部署地址**：（部署后填这里）
 > - **技术栈**：Next.js 14（App Router）+ React 18
 
