@@ -1,0 +1,16 @@
+{
+  "name": "se3306-exp1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "实验一：CSR/SSR/SSG 渲染对比",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.2.15",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}
