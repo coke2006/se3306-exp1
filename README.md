@@ -1,7 +1,7 @@
 # SE3306 实验一：CSR / SSR / SSG 渲染对比
 
 > - **仓库**：https://gitee.com/coker-coal/se3306-exp1
-> - **部署地址**：（部署后填这里）
+> - **部署地址**：https://se3306-exp1-coke11.vercel.app
 > - **技术栈**：Next.js 14（App Router）+ React 18
 
 ## 一、实验目的
@@ -76,9 +76,14 @@ se3306-exp1/
 └── README.md
 ```
 
-## 六、部署说明（EdgeOne Pages）
+## 六、部署说明（Vercel）
 
-1. 将本仓库推送到 Gitee；
-2. 登录 [EdgeOne Pages 控制台](https://console.cloud.tencent.com/edgeone/pages)，选择「连接 Git 仓库」，导入 Gitee 上的 `se3306-exp1`；
-3. 构建命令 `npm run build`，EdgeOne 会自动识别 Next.js 项目；
-4. 部署完成后即可通过分配的域名访问，填入本 README 顶部「部署地址」。
+本项目最终部署在 Vercel（免费 Hobby 套餐，原生支持 Next.js 的 SSR/SSG）：
+
+1. 将代码推送到 GitHub 仓库（https://github.com/coke2006/se3306-exp1）；
+2. 在 [Vercel](https://vercel.com) 使用 GitHub 账号登录，Import 该仓库；
+3. Framework Preset 自动识别为 Next.js，直接 Deploy；
+4. 在 Settings → Deployment Protection 中关闭 Vercel Authentication，使链接可公开访问；
+5. 最终访问地址：**https://se3306-exp1-coke11.vercel.app**，每次向 main 分支推送会自动重新部署。
+
+> 备注：也曾部署到腾讯云 EdgeOne Makers（见 `edgeone.json`），但其默认域名对中国大陆加速区域仅提供 3 小时限时预览链接，长期公开访问需绑定已备案的自定义域名，故最终采用 Vercel。
