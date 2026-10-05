@@ -1,0 +1,82 @@
+{
+  "home": {
+    "fcp": 52,
+    "lcp": 52,
+    "cls": 0,
+    "domContentLoaded": 15,
+    "loadEnd": 28,
+    "htmlTransferBytes": 300,
+    "htmlDecodedBytes": 10939,
+    "textLength": 552
+  },
+  "csr": {
+    "fcp": 32,
+    "lcp": 32,
+    "cls": 0.0385,
+    "domContentLoaded": 10,
+    "loadEnd": 18,
+    "htmlTransferBytes": 300,
+    "htmlDecodedBytes": 6985,
+    "textLength": 701
+  },
+  "ssr": {
+    "fcp": 112,
+    "lcp": 112,
+    "cls": 0,
+    "domContentLoaded": 55,
+    "loadEnd": 118,
+    "htmlTransferBytes": 5189,
+    "htmlDecodedBytes": 10780,
+    "textLength": 688
+  },
+  "ssg": {
+    "fcp": 32,
+    "lcp": 32,
+    "cls": 0,
+    "domContentLoaded": 7,
+    "loadEnd": 11,
+    "htmlTransferBytes": 300,
+    "htmlDecodedBytes": 11481,
+    "textLength": 821
+  },
+  "viewsource-csr": {
+    "fcp": 40,
+    "lcp": 40,
+    "cls": 0,
+    "domContentLoaded": 6,
+    "loadEnd": 7,
+    "htmlTransferBytes": 300,
+    "htmlDecodedBytes": 6985,
+    "textLength": 6533
+  },
+  "viewsource-ssr": {
+    "fcp": 116,
+    "lcp": 116,
+    "cls": 0,
+    "domContentLoaded": 73,
+    "loadEnd": 74,
+    "htmlTransferBytes": 5189,
+    "htmlDecodedBytes": 10780,
+    "textLength": 8888
+  },
+  "evidence-csr": {
+    "fcp": 28,
+    "lcp": 28,
+    "cls": 0,
+    "domContentLoaded": 6,
+    "loadEnd": 6,
+    "htmlTransferBytes": 8660,
+    "htmlDecodedBytes": 8360,
+    "textLength": 6628
+  },
+  "evidence-ssr": {
+    "fcp": 40,
+    "lcp": 40,
+    "cls": 0,
+    "domContentLoaded": 6,
+    "loadEnd": 7,
+    "htmlTransferBytes": 12606,
+    "htmlDecodedBytes": 12306,
+    "textLength": 8984
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "throttled-csr": {
+    "fcp": 224,
+    "lcp": 248,
+    "cls": 0.0385,
+    "domContentLoaded": 174,
+    "loadEnd": 227,
+    "htmlTransferBytes": 300,
+    "htmlDecodedBytes": 6985,
+    "textLength": 701
+  },
+  "throttled-ssr": {
+    "fcp": 232,
+    "lcp": 232,
+    "cls": 0,
+    "domContentLoaded": 227,
+    "loadEnd": 227,
+    "htmlTransferBytes": 5189,
+    "htmlDecodedBytes": 10780,
+    "textLength": 688
+  },
+  "throttled-ssg": {
+    "fcp": 244,
+    "lcp": 244,
+    "cls": 0,
+    "domContentLoaded": 180,
+    "loadEnd": 245,
+    "htmlTransferBytes": 300,
+    "htmlDecodedBytes": 11481,
+    "textLength": 821
+  }
+}
